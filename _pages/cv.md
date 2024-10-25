@@ -11,35 +11,38 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* M.S. in Biostatistics, Case Western Reserve University, expected Fall 2025
+* B.S. in Applied Mathematics, Case Western Reserve University
+  * Minor: Computer Science
+  * Related coursework: Data Structures, Discrete Math, Programming in Java, Full-Stack Web Development, Data Science Systems
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* December 2022 - Present: Research Assistant
+  * Wu Lab, University Hospitals Cleveland
+  * Duties include: Collaborating with Dr. Wilfred Chen-Han Wu on kidney stone research using data analysis, developing models for nephrolithiasis genome data, and building data pipelines in R and Python on high-performance computing resources.
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* February 2022 - May 2022: Research Assistant
+  * Brick Lab
+  * Duties included: Processing and analyzing MRI scans of 20+ patients, collaborating with a team to build a computer vision application for analyzing patient data.
 
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Programming Languages
+  * R
+  * Python
+  * Java
+  * JavaScript
+  * MATLAB
+* Data Management & Visualization
+  * Data cleaning, transformation, and visualization with Python libraries and Plotly
+* Machine Learning & Predictive Modeling
+  * Building predictive models, statistical modeling, genomic data analysis
+* Additional Skills
+  * Leadership
+  * Teamwork
+  * Communication
+  * Public Speaking
 
 Publications
 ======
@@ -61,4 +64,7 @@ Teaching
   
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* Vice-President, CWRU Student Government, August 2022 - Present
+  * Led a committee organizing diversity and inclusion events; represented undergraduate students at campus events.
+* President, UWC Maastricht Computer Science Club, October 2019 - April 2021
+  * Organized over 80 sessions on programming, robotics, and computer vision; developed an in-school social media platform for communication.
