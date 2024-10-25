@@ -21,10 +21,10 @@ repository               : "amrsalm/amrsalm.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.jpg"
+  avatar           : "profile.png"
   name             : "Amr Salem"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
+  bio              : " master's student in biostatistics at Case Western Reserve University, with a background in applied mathematics (BS). My interests lie in applying machine learning to epidemiology, genetics, and healthcare. As a Research Assistant at Wu Lab, University Hospitals Cleveland, I actively contribute to medical research through data-driven insights. Expected to graduate in Fall 2025, I combine academic knowledge with practical experience in statistical modeling and consultation."
   location         : "Earth"
   employer         : "Case Western Reserve University"
   uri              : # URL
