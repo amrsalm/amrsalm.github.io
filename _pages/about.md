@@ -18,16 +18,24 @@ My capstone project focuses on developing a **deep learning-based Polygenic Risk
 
 Research Interests
 ------
-My primary research interests lie in **machine learning**, **statistical genomics**, and **personalized medicine**. I am particularly focused on leveraging deep learning and graph neural networks to enhance predictive modeling in healthcare. In addition to my capstone, I am developing an attention-based Graph Neural Network (GNN) model to improve PRS predictions. My experience includes genome-wide association studies (GWAS), analyzing ICD-10 coded electronic health records (EHR), and implementing data-driven healthcare solutions that optimize patient outcomes.
+My primary research interests lie in **machine learning**, **statistical genomics**, and **personalized medicine**. I am particularly focused on leveraging deep learning and graph neural networks to enhance predictive modeling in healthcare. In addition to my capstone, I am developing an attention-based Graph Neural Network (GNN) model to improve PRS predictions. 
 
 I am also interested in **natural language processing** (NLP) applications within healthcare, such as my project *ClinQuest*, an NLP tool combining MedSpaCy with machine learning models to map patient symptoms to ICD-10 codes, making clinical data more accessible and actionable for providers.
 
-Hobbies and Interests
-------
-Outside of my academic pursuits, I have a deep interest in mathematics and often spend time with friends exploring theoretical concepts. My curiosity extends to fitness, as I work toward my health goals through structured routines and mindful nutrition. I also enjoy hiking, daydreaming new research ideas, and planning for long-term projects, including a math institute back home in Egypt to inspire scientific curiosity and education.
+Passions Beyond Academics
+======
+
+Outside of the classroom, I have a range of interests that keep me creatively and physically engaged. I’m passionate about **science communication and teaching** and enjoy sharing complex ideas in accessible ways, whether through mentoring, tutoring, or giving presentations. Bringing science to a broader audience is something I find incredibly fulfilling.
+
+I'm also deeply into **indie games**—both playing and sometimes developing them as a side hobby, where I experiment with coding and game design. Fitness has become a big part of my routine as I work toward my health goals, providing a perfect balance to my academic life.
+
+In addition, I’m a fan of **classic movies**, especially for their storytelling and cinematography. A couple of my favorites are *12 Angry Men* and *Casablanca*. These films offer timeless lessons in human character and resilience that inspire me in both life and work.
+
 
 Looking Ahead
 ------
-My academic journey continues as I prepare for a PhD focused on biostatistics and machine learning in epidemiology and statistical genomics. Carnegie Mellon University and Harvard are among my top choices due to their renowned programs and faculty expertise. I am driven by the potential of genomics and AI to reshape healthcare and am excited to contribute to these fields through research and collaboration.
+My academic journey continues as I prepare for a PhD focused on biostatistics and machine learning in epidemiology and statistical genomics. I am driven by the potential of genomics and AI to reshape healthcare and am excited to contribute to these fields through research and collaboration.
 
-Thank you for visiting my site! Here, you can explore more about my research, projects, and future aspirations.
+Thank you for visiting my site! If you'd like to connect or have any questions, please feel free to **contact me**. I'm always open to discussing research, collaborations, or sharing insights on any of my projects.
+
+You can reach me at **ams716 at case.edu**. Looking forward to connecting!
