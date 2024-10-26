@@ -21,7 +21,7 @@ repository               : "amrsalm/amrsalm.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "https://i.ibb.co/n1f7KPY/c46ed8fb-6193-44e9-badf-6c17a928cb08.jpg"
   name             : "Amr Salem"
   pronouns         : # example: "she/her"  
   bio              : "Dedicated master’s student in biostatistics and applied mathematics, specializing in statistical genomics, with extensive experience in healthcare data science, machine learning, and predictive modeling for clinical research."
