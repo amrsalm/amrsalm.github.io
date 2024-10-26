@@ -24,31 +24,31 @@ author:
   avatar           : "profile.png"
   name             : "Amr Salem"
   pronouns         : # example: "she/her"  
-  bio              : " master's student in biostatistics at Case Western Reserve University, with a background in applied mathematics (BS). My interests lie in applying machine learning to epidemiology, genetics, and healthcare. As a Research Assistant at Wu Lab, University Hospitals Cleveland, I actively contribute to medical research through data-driven insights. Expected to graduate in Fall 2025, I combine academic knowledge with practical experience in statistical modeling and consultation."
-  location         : "Earth"
+  bio              : "Dedicated master’s student in biostatistics and applied mathematics, specializing in statistical genomics, with extensive experience in healthcare data science, machine learning, and predictive modeling for clinical research."
+  location         : "Cleveland, OH"
   employer         : "Case Western Reserve University"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : ams716@case.edu" 
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  googlescholar    : "https://scholar.google.com/citations?user=j3DwMNMAAAAJ&hl=en"
   impactstory      : # URL
-  orcid            : "http://orcid.org/yourorcidurl"
+  orcid            : #
   semantic         : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : #
   researchgate     : # URL
 
   # Repositories and software development
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "academicpages"
+  github           : "amrsalm"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          :  # Replace this with you Bluesky username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
