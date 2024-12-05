@@ -1,0 +1,51 @@
+[
+  {
+    "objectID": "cv/index.html",
+    "href": "cv/index.html",
+    "title": "Curriculum vitae",
+    "section": "",
+    "text": "Download current CV\n  \n\n\n  \n\n\nView the tutorial for this template (+ download link)"
+  },
+  {
+    "objectID": "photography/index.html",
+    "href": "photography/index.html",
+    "title": "Photography",
+    "section": "",
+    "text": "As a wizard and scholar of Middle-earth, I have been studying the magic of the natural world for centuries. Through my self-portraits, I aim to capture the essence of my own being and reflect on my own journey through time. Each photograph is a reflection of my own experiences and emotions. Through my photography, I hope to offer a glimpse into my life as a scholar and adventurer, and inspire others to reflect on their own journeys through the world.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nView the tutorial for this template (+ download link)"
+  },
+  {
+    "objectID": "projects/index.html",
+    "href": "projects/index.html",
+    "title": "Journey",
+    "section": "",
+    "text": "I am currently pursuing Integrated Graduate Studies (BS/MS) at Case Western Reserve University, majoring in Applied Mathematics and Biostatistics. This unique program allows me to blend advanced mathematical techniques with biostatistical methods, focusing on applying data science to real-world healthcare challenges. My undergraduate and graduate coursework has provided me with a solid foundation in mathematical modeling, computational analysis, and predictive analytics."
+  },
+  {
+    "objectID": "projects/index.html#education",
+    "href": "projects/index.html#education",
+    "title": "Journey",
+    "section": "",
+    "text": "I am currently pursuing Integrated Graduate Studies (BS/MS) at Case Western Reserve University, majoring in Applied Mathematics and Biostatistics. This unique program allows me to blend advanced mathematical techniques with biostatistical methods, focusing on applying data science to real-world healthcare challenges. My undergraduate and graduate coursework has provided me with a solid foundation in mathematical modeling, computational analysis, and predictive analytics."
+  },
+  {
+    "objectID": "projects/index.html#experience",
+    "href": "projects/index.html#experience",
+    "title": "Journey",
+    "section": "Experience",
+    "text": "Experience\n\nWu Lab at Case Western Reserve University (2022–Present)\nAt the Wu Lab, I have been working on applying data science to better understand and improve the management of kidney stone disease. My projects involve integrating computational and statistical methods to analyze large-scale genomic datasets, with the goal of identifying patterns and predictors in the disease’s progression and recurrence. This work has deepened my understanding of precision medicine and the application of biostatistics in translational research.\n\n\nGillani Lab at Dana-Farber Cancer Institute (Starting Summer 2025)\nThe Gillani Lab is dedicated to advancing pediatric, adolescent, and young adult cancer care through innovative computational biology approaches. Their mission is to contribute to a comprehensive understanding of germline genetics and tumor genomics in pediatric cancer, with the goal of informing novel management strategies.\nI am excited to join this dynamic team and contribute to their vision of improving pediatric cancer care using cutting-edge computational biology."
+  },
+  {
+    "objectID": "projects/index.html#research-projects",
+    "href": "projects/index.html#research-projects",
+    "title": "Journey",
+    "section": "Research Projects",
+    "text": "Research Projects\n\nPredicting Kidney Stone Risk Using Genomic Data\nThis project aimed to predict kidney stone susceptibility using genomic data. Under the guidance of Dr. Anirban Mondal, I developed a Convolutional Neural Network (CNN) model to analyze genotypic data from 60 individuals, encompassing over 400 SNPs identified from genome-wide association studies (GWAS). The model achieved an accuracy of 75% and an ROC-AUC of 0.8125, providing promising insights into genetic predispositions to kidney stones.\nA major challenge was working with a relatively small dataset, which required careful optimization of model parameters and validation techniques to ensure robust predictions. This experience honed my ability to combine biological context with computational tools, paving the way for future research involving larger datasets and integration of clinical features.\n\n\nDisease Course of Kidney Stones\nThis project investigates the disease course of kidney stones, focusing on the factors influencing their progression and recurrence. By leveraging clinical and genomic data, we aim to develop predictive models that can assist in tailoring treatment strategies for patients. My contributions include data preprocessing, feature selection, and implementing machine learning pipelines to identify key predictors. This research has the potential to inform more personalized approaches to managing kidney stone disease.\n\n\nView the tutorial for this template (+ download link)"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome to my website!",
+    "section": "",
+    "text": "Github\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     Email\n  \n\n\n\n\nWelcome to my website!\nI am Amr Salem, a dedicated master’s student in applied mathematics and biostatistics at Case Western Reserve University, with a passion for exploring the potential of data science and statistical modeling in advancing healthcare. Currently, I work at the UroGenetics Lab under the guidance of Dr. Chen-Han Wilfred Wu, where I am involved in cutting-edge research at the intersection of genomics and machine learning.\nMy research focuses on statistical genomics, with an emphasis on leveraging computational tools to address complex biological challenges. Projects such as predicting kidney stone risk using convolutional neural networks and developing polygenic risk scores have allowed me to combine my academic training with innovative methodologies to generate impactful insights.\nAs a researcher and student, I am passionate about learning, discovery, and collaboration. My experience spans diverse projects, from abstract presentations to hands-on analysis, and I thrive in environments where interdisciplinary approaches and creative problem-solving are valued.\nOn this page, you will find updates on my research projects, academic pursuits, and insights into the ever-evolving fields of genomics and biostatistics.\nPlease feel free to contact me if you have any questions or would like to discuss potential projects.\n\nView the tutorial for this template (+ download link)"
+  }
+]
