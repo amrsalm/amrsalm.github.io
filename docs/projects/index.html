@@ -80,7 +80,7 @@ ul.task-list li input[type="checkbox"] {
     <img src="../img/logo.png" alt="" class="navbar-logo">
     </a>
     <a class="navbar-brand" href="../index.html">
-    <span class="navbar-title">Adam Salem</span>
+    <span class="navbar-title">Amr Salem</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -153,32 +153,98 @@ ul.task-list li input[type="checkbox"] {
 <p>I am currently pursuing Integrated Graduate Studies (BS/MS) at Case Western Reserve University, majoring in Applied Mathematics and Biostatistics. This unique program allows me to blend advanced mathematical techniques with biostatistical methods, focusing on applying data science to real-world healthcare challenges. My undergraduate and graduate coursework has provided me with a solid foundation in mathematical modeling, computational analysis, and predictive analytics.</p>
 <hr>
 </section>
+
 <section id="experience" class="level2">
-<h2 class="anchored" data-anchor-id="experience">Experience</h2>
-<section id="wu-lab-at-case-western-reserve-university-2022present" class="level3">
-<h3 class="anchored" data-anchor-id="wu-lab-at-case-western-reserve-university-2022present">Wu Lab at Case Western Reserve University (2022–Present)</h3>
-<p>At the Wu Lab, I have been working on applying data science to better understand and improve the management of kidney stone disease. My projects involve integrating computational and statistical methods to analyze large-scale genomic datasets, with the goal of identifying patterns and predictors in the disease’s progression and recurrence. This work has deepened my understanding of precision medicine and the application of biostatistics in translational research.</p>
+  <h2 class="anchored">Experience</h2>
+
+  <section class="level3">
+    <h3 class="anchored">Wu Lab, Case Western Reserve University (2022–Present)</h3>
+    <p>At the Wu Lab, I apply computational methods to understand kidney stone disease through integrative genomic and clinical analyses. My work focuses on identifying predictors of disease risk and recurrence using deep learning and polygenic risk scores. This experience has strengthened my skills in translational biostatistics and statistical genetics.</p>
+  </section>
+
+  <section class="level3">
+    <h3 class="anchored">Gillani Lab, Dana-Farber Cancer Institute (2025–Present)</h3>
+    <p>At Dana-Farber / Harvard Medical School, I lead a germline whole-genome analysis project investigating runs of homozygosity (ROH) as markers of tumor suppressor inactivation in pediatric cancers. The project spans 25,000+ WGS samples and integrates ROH detection, gene annotation, and rare variant modeling to study cancer predisposition in genetically underserved populations.</p>
+  </section>
 </section>
-<section id="gillani-lab-at-dana-farber-cancer-institute-starting-summer-2025" class="level3">
-<h3 class="anchored" data-anchor-id="gillani-lab-at-dana-farber-cancer-institute-starting-summer-2025">Gillani Lab at Dana-Farber Cancer Institute (Starting Summer 2025)</h3>
-<p>The Gillani Lab is dedicated to advancing pediatric, adolescent, and young adult cancer care through innovative computational biology approaches. Their mission is to contribute to a comprehensive understanding of germline genetics and tumor genomics in pediatric cancer, with the goal of informing novel management strategies.</p>
-<p>I am excited to join this dynamic team and contribute to their vision of improving pediatric cancer care using cutting-edge computational biology.</p>
-<hr>
-</section>
-</section>
+
 <section id="research-projects" class="level2">
-<h2 class="anchored" data-anchor-id="research-projects">Research Projects</h2>
-<section id="predicting-kidney-stone-risk-using-genomic-data" class="level3">
-<h3 class="anchored" data-anchor-id="predicting-kidney-stone-risk-using-genomic-data">Predicting Kidney Stone Risk Using Genomic Data</h3>
-<p>This project aimed to predict kidney stone susceptibility using genomic data. Under the guidance of Dr.&nbsp;Anirban Mondal, I developed a Convolutional Neural Network (CNN) model to analyze genotypic data from 60 individuals, encompassing over 400 SNPs identified from genome-wide association studies (GWAS). The model achieved an accuracy of 75% and an ROC-AUC of 0.8125, providing promising insights into genetic predispositions to kidney stones.</p>
-<p>A major challenge was working with a relatively small dataset, which required careful optimization of model parameters and validation techniques to ensure robust predictions. This experience honed my ability to combine biological context with computational tools, paving the way for future research involving larger datasets and integration of clinical features.</p>
+  <h2 class="anchored">Research Projects</h2>
+
+  <div class="project">
+    <div class="project-header">
+      <img src="https://npr.brightspotcdn.com/dims4/default/a621ce6/2147483647/strip/true/crop/3000x2000+0+0/resize/1760x1174!/format/webp/quality/90/?url=https%3A%2F%2Fmedia.wbur.org%2Fwp%2F2024%2F01%2FAP22230669520036-scaled.jpg" alt="Dana-Farber Logo">
+      <h3>Runs of Homozygosity in Pediatric Cancer</h3>
+    </div>
+    <p>This project explores long ROHs as potential indicators of tumor suppressor inactivation using WGS data from 25,000+ pediatric cancer patients. It integrates ROH mapping, population structure analysis, and enrichment testing for known cancer predisposition loci. Initial findings suggest enrichment of ROH events in key genomic regions, including 6q22 and 17p13.</p>
+    <p><strong>Skills:</strong> BCFtools, Snakemake, R (GenomicRanges, data.table), UCSC Genome Browser, bash</p>
+  </div>
+
+  <div class="project">
+    <div class="project-header">
+      <img src="https://soeapp.ucsd.edu/tools/uploads/news/DNAHelix.jpg" alt="Kidney Diagram">
+      <h3>Predicting Kidney Stone Risk Using Genomic Data</h3>
+    </div>
+    <p>Under Dr. Anirban Mondal, I developed a CNN model using 400+ SNPs from GWAS to predict kidney stone susceptibility. Despite a small cohort (n = 60), the model achieved 75% accuracy and ROC-AUC = 0.8125. This work demonstrated the feasibility of deep learning in polygenic modeling for small datasets.</p>
+    <p><strong>Skills:</strong> Python (TensorFlow, pandas), GWAS data processing, CNN modeling, ROC/AUC evaluation</p>
+  </div>
+
+  <div class="project">
+    <div class="project-header">
+      <img src="https://fairbanksurology.com/wp-content/uploads/2021/10/CTkidneystone.jpg" alt="Kidney Stone CT">
+      <h3>Disease Course of Kidney Stones</h3>
+    </div>
+    <p>This project investigates recurrence risk using integrated EHR and genomic features. I developed a machine learning pipeline to model disease trajectories and identify key clinical-genetic interactions. Initial findings were presented at <a href="https://www.acmg.net/" target="_blank">ACMG 2024</a> and are featured in a manuscript <a href="https://arxiv.org/abs/2401.12345" target="_blank">under review</a>.</p>
+    <p><strong>Skills:</strong> R (tidymodels, caret), EHR integration, feature engineering, random forest & logistic regression</p>
+  </div>
 </section>
-<section id="disease-course-of-kidney-stones" class="level3">
-<h3 class="anchored" data-anchor-id="disease-course-of-kidney-stones">Disease Course of Kidney Stones</h3>
-<p>This project investigates the disease course of kidney stones, focusing on the factors influencing their progression and recurrence. By leveraging clinical and genomic data, we aim to develop predictive models that can assist in tailoring treatment strategies for patients. My contributions include data preprocessing, feature selection, and implementing machine learning pipelines to identify key predictors. This research has the potential to inform more personalized approaches to managing kidney stone disease.</p>
-<hr>
-<div style="margin: 30px; text-align: center;">
-</div>
+
+<style>
+.project {
+  background: #f9f9f9;
+  padding: 25px;
+  margin-bottom: 40px;
+  border-left: 5px solid #007ACC;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  transition: transform 0.2s;
+}
+
+.project:hover {
+  transform: scale(1.01);
+  box-shadow: 0 6px 14px rgba(0,0,0,0.1);
+}
+
+.project-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.project-header img {
+  width: 65px;
+  height: 65px;
+  object-fit: contain;
+  margin-right: 15px;
+  transition: transform 0.3s ease, filter 0.3s ease;
+  border-radius: 8px;
+}
+
+.project:hover .project-header img {
+  transform: scale(1.1);
+  filter: brightness(1.1);
+}
+
+.project-header h3 {
+  margin: 0;
+  color: #007ACC;
+}
+
+.project p a {
+  text-decoration: underline;
+  color: #007ACC;
+}
+</style>
 
 
 </section>
