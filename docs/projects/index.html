@@ -217,11 +217,25 @@ ul.task-list li input[type="checkbox"] {
 
   <div class="project">
     <div class="project-header">
+      <img src="https://cbdm-01.zdv.uni-mainz.de/~galanisl/netbio/img/pin.png" alt="Graph Drawing">
+      <h3>GraftR: Graph Neural Networks in R</h3>
+    </div>
+    <p><strong>graphtR</strong> is an experimental R package for graph-based learning with Graph Neural Networks (GNNs), developed as part of a reading course with <a href="https://artsci.case.edu/math/daniela-calvetti/" target="_blank">Dr. Daniela Calvetti</a>. The goal of this project is to bring foundational GNN models—currently underrepresented in the R ecosystem—into a lightweight, self-contained package built entirely in base R.</p>
+    <p>The first implemented model is a Variational Graph Autoencoder (VGAE), which learns latent node embeddings from sparse graphs using a GCN encoder, reparameterization trick, and matrix-based decoder. The package supports graph reconstruction, link prediction, and interpretable unsupervised embeddings.</p>
+    <p>This tool addresses a critical gap for R users working in systems biology, epidemiology, and network analysis, where deep learning for graphs remains largely Python-bound. Future updates will expand the model set to include GCNs, MPNNs, and GATs.</p>
+    <p>Explore the source code on <a href="https://github.com/amrsalm/GraftR" target="_blank">GitHub</a>.</p>
+    <p><strong>Skills:</strong> R (base), graph theory, numerical differentiation, unsupervised learning, matrix optimization</p>
+  </div>
+
+  <div class="project">
+    <div class="project-header">
       <img src="https://npr.brightspotcdn.com/dims4/default/a621ce6/2147483647/strip/true/crop/3000x2000+0+0/resize/1760x1174!/format/webp/quality/90/?url=https%3A%2F%2Fmedia.wbur.org%2Fwp%2F2024%2F01%2FAP22230669520036-scaled.jpg" alt="Dana-Farber Logo">
       <h3>Runs of Homozygosity in Pediatric Cancer</h3>
     </div>
     <p>This project explores long ROHs as potential indicators of tumor suppressor inactivation using WGS data from 25,000+ pediatric cancer patients. It integrates ROH mapping, population structure analysis, and enrichment testing for known cancer predisposition loci. Initial findings suggest enrichment of ROH events in key genomic regions around important genes TP53 and EGFR </p>
-    <p><strong>Skills:</strong> BCFtools, Snakemake, R (GenomicRanges, data.table), UCSC Genome Browser, bash</p>
+    <p> <a href="https://www.sciencedirect.com/science/article/pii/S2949774424003042" target="_blank">ScienceDirect (ACMG GIM findings)</a>.</p>
+
+    <p><strong>Skills:</strong> BCFtools, Snakemake, R ,Plink, Machine learning, statistical analysis,bash</p>
   </div>
 
   <div class="project">
@@ -231,7 +245,7 @@ ul.task-list li input[type="checkbox"] {
     </div>
     <p>Under Dr. Anirban Mondal, I developed a Convolutional Neural Network (CNN) to predict kidney stone susceptibility from GWAS-derived SNPs. Despite a small cohort (n = 60), the model achieved 75% accuracy and an ROC-AUC of 0.8125, supporting the use of deep learning for genetic risk modeling in complex traits.</p>
     <p>This project laid the foundation for exploring polygenic risk scores (PRS) in urologic conditions. Our findings were presented at ACMG 2024 and published as a preprint on <a href="https://arxiv.org/abs/2412.17559" target="_blank">arXiv:2412.17559</a>.</p>
-    <p><strong>Skills:</strong> Python (TensorFlow, pandas), GWAS processing, CNN modeling, PRS development, ROC/AUC evaluation</p>
+    <p><strong>Skills:</strong> Python (TensorFlow, pandas), GWAS processing, CNN modeling, PRS development</p>
   </div>
 
   <div class="project">
@@ -240,7 +254,6 @@ ul.task-list li input[type="checkbox"] {
       <h3>Reframing Kidney Stones as a Systemic Disease</h3>
     </div>
     <p>This study used longitudinal EHR data to uncover novel comorbidity patterns in kidney stone patients. We identified a significant link between kidney stone disease (KSD) and neoplastic disorders, prompting a new view of KSD as a systemic condition rather than a purely urological issue.</p>
-    <p>Our analysis, featured at ACMG 2024 and in a peer-reviewed publication, is available at <a href="https://www.sciencedirect.com/science/article/pii/S2949774424003042" target="_blank">ScienceDirect (ACMG GIM findings)</a>.</p>
     <p><strong>Skills:</strong> R (tidymodels, data.table), EHR integration, longitudinal modeling, disease network analysis, logistic regression</p>
   </div>
 
