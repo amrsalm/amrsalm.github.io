@@ -4,128 +4,134 @@
   <meta charset="utf-8">
   <meta name="generator" content="quarto-1.6.39">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-  <title>Amr Salem</title>
-  <link href="./img/favicon.png" rel="icon" type="image/png">
-  <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet">
-  <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+  <title>Amr Salem – Personal Website</title>
+  <link href="../img/favicon.png" rel="icon" type="image/png">
+  <link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet">
+  <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
   <style>
-    .accordion-button::after {
-      transition: transform 0.2s ease-in-out;
-    }
-    .accordion-button.collapsed::after {
-      transform: rotate(-90deg);
-    }
-    .section-title {
-      font-size: 1.4rem;
-      font-weight: bold;
-      margin-top: 2rem;
-    }
-    .accordion-body {
-      background-color: #f9f9f9;
-    }
+    body { padding-top: 5rem; background-color: #fdfdfd; font-family: 'Segoe UI', sans-serif; }
+    .section-title { font-size: 1.5rem; font-weight: bold; margin: 2rem 0 1rem; }
+    .accordion-button::after { transition: transform 0.2s ease-in-out; }
+    .accordion-button.collapsed::after { transform: rotate(-90deg); }
+    .accordion-body { background-color: #f9f9f9; }
+    .container { max-width: 900px; margin: auto; padding: 2rem; }
+    .accordion-button { background-color: #f0f0f0; font-weight: 600; }
+    .accordion-item { margin-bottom: 1rem; border: none; }
+    .btn-link { font-weight: 600; text-decoration: none; color: #0d6efd; }
   </style>
+  <script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+  <script src="../site_libs/clipboard/clipboard.min.js"></script>
+  <script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+  <script src="../site_libs/quarto-search/fuse.min.js"></script>
+  <script src="../site_libs/quarto-search/quarto-search.js"></script>
+  <script src="../site_libs/quarto-html/quarto.js"></script>
+  <script src="../site_libs/quarto-html/popper.min.js"></script>
+  <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+  <script src="../site_libs/quarto-html/anchor.min.js"></script>
+  <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+  <link href="../site_libs/quarto-html/quarto-syntax-highlighting-e26003cea8cd680ca0c55a263523d882.css" rel="stylesheet">
+  <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 </head>
 <body class="nav-fixed fullcontent">
-
 <div id="quarto-search-results"></div>
 <header id="quarto-header" class="headroom fixed-top">
   <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
     <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-        <a href="./index.html" class="navbar-brand navbar-brand-logo">
-          <img src="./img/logo.png" alt="" class="navbar-logo">
+        <a href="../index.html" class="navbar-brand navbar-brand-logo">
+          <img src="../img/logo.png" alt="" class="navbar-logo">
         </a>
-        <a class="navbar-brand" href="./index.html">
+        <a class="navbar-brand" href="../index.html">
           <span class="navbar-title">Amr Salem</span>
         </a>
       </div>
       <div id="quarto-search" class="" title="Search"></div>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav navbar-nav-scroll me-auto">
-          <li class="nav-item"><a class="nav-link" href="./projects/index.html">Journey</a></li>
-          <li class="nav-item"><a class="nav-link" href="./cv/index.html">CV</a></li>
-          <li class="nav-item"><a class="nav-link" href="./blog/Blog.html">Blog</a></li>
+          <li class="nav-item">
+            <a class="nav-link" href="../projects/index.html"><span class="menu-text">Journey</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../cv/index.html"><span class="menu-text">CV</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="../blog/Blog.html" aria-current="page"><span class="menu-text">Blog</span></a>
+          </li>
         </ul>
         <ul class="navbar-nav navbar-nav-scroll ms-auto">
-          <li class="nav-item compact"><a class="nav-link" href="https://www.linkedin.com/in/amr-salem-b1a3a619a"><i class="bi bi-linkedin"></i></a></li>
-          <li class="nav-item compact"><a class="nav-link" href="mailto:ams716@case.edu"><i class="bi bi-envelope" aria-label="email"></i></a></li>
+          <li class="nav-item compact">
+            <a class="nav-link" href="https://www.linkedin.com/in/amr-salem-b1a3a619a"><i class="bi bi-linkedin" role="img"></i></a>
+          </li>
+          <li class="nav-item compact">
+            <a class="nav-link" href="mailto:ams716@case.edu"><i class="bi bi-envelope" role="img" aria-label="email"></i></a>
+          </li>
         </ul>
       </div>
     </div>
   </nav>
 </header>
-
-<main class="content container mt-5">
-  <div class="text-center mb-4">
-    <img src="img/my_image.jpeg" class="rounded-circle" style="height: 12em; width: 12em;">
-    <h1 class="mt-3">Welcome</h1>
-    <p>I’m Amr Salem, a master’s student in applied mathematics and biostatistics at Case Western Reserve University, specializing in statistical genomics and machine learning applications in human health.</p>
-    <p>Currently, I’m conducting germline whole-genome analysis at Dana-Farber Cancer Institute / Harvard Medical School, investigating runs of homozygosity (ROH) as potential markers of tumor suppressor inactivation across pediatric cancer cohorts.</p>
-    <p>I also work in the UroGenetics Lab at University Hospitals Cleveland Medical Center, where I’ve developed deep learning models for kidney stone prediction and pipelines for polygenic risk score estimation.</p>
-  </div>
+<div class="container">
+  <h1 class="text-center">Welcome – Amr Salem</h1>
 
   <div class="accordion" id="bioAccordion">
     <div class="accordion-item">
       <h2 class="accordion-header" id="headingResearch">
-        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseResearch" aria-expanded="true" aria-controls="collapseResearch">
-          Research
-        </button>
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseResearch" aria-expanded="true" aria-controls="collapseResearch">Research Summary</button>
       </h2>
       <div id="collapseResearch" class="accordion-collapse collapse show" aria-labelledby="headingResearch" data-bs-parent="#bioAccordion">
         <div class="accordion-body">
-          Germline ROH analysis in pediatric cancer, deep learning for kidney stone risk prediction, PRS pipelines, EHR-integrated GWAS, and rare disease genomics.
+          I work at the intersection of statistical genomics, biomedical informatics, and machine learning. My research includes germline ROH analysis in pediatric cancer, deep learning for kidney stone prediction, polygenic risk scores, and EHR-integrated GWAS. I am currently developing <a href="https://github.com/amrsalem1/graphtR" target="_blank" class="btn-link">graphtR</a>, an experimental R package that brings Graph Neural Networks to the R ecosystem.
         </div>
       </div>
     </div>
-
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingInterests">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseInterests" aria-expanded="false" aria-controls="collapseInterests">Research Interests</button>
+      </h2>
+      <div id="collapseInterests" class="accordion-collapse collapse" aria-labelledby="headingInterests" data-bs-parent="#bioAccordion">
+        <div class="accordion-body">
+          Runs of Homozygosity, statistical genetics, regulatory genomics, rare disease discovery, interpretable AI, and scalable deep learning for biomedicine.
+        </div>
+      </div>
+    </div>
     <div class="accordion-item">
       <h2 class="accordion-header" id="headingLeadership">
-        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseLeadership" aria-expanded="false" aria-controls="collapseLeadership">
-          Leadership
-        </button>
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseLeadership" aria-expanded="false" aria-controls="collapseLeadership">Leadership</button>
       </h2>
       <div id="collapseLeadership" class="accordion-collapse collapse" aria-labelledby="headingLeadership" data-bs-parent="#bioAccordion">
         <div class="accordion-body">
-          Vice President of the Diversity Committee at CWRU. Built a confidential support hotline and led a student advocacy group for survivors of sexual violence. <a href="https://observer.case.edu/opinion-spring-student-leadership-in-action/" target="_blank">Read the article</a>.
+          Former Vice President of the Diversity & Inclusion Committee at Case Western. I co-founded a student advocacy group and launched a <a href="https://observer.case.edu/hotline-launched-to-report-sexual-harassment-on-campus/" target="_blank" class="btn-link">confidential hotline</a> for sexual harassment reporting.
         </div>
       </div>
     </div>
-
     <div class="accordion-item">
       <h2 class="accordion-header" id="headingEducation">
-        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEducation" aria-expanded="false" aria-controls="collapseEducation">
-          Education
-        </button>
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEducation" aria-expanded="false" aria-controls="collapseEducation">Education</button>
       </h2>
       <div id="collapseEducation" class="accordion-collapse collapse" aria-labelledby="headingEducation" data-bs-parent="#bioAccordion">
         <div class="accordion-body">
           <ul>
-            <li>M.S. in Biostatistics – Case Western Reserve University (expected 2025)</li>
-            <li>B.S. in Applied Mathematics – Case Western Reserve University</li>
-            <li>International Baccalaureate – UWC Maastricht, Netherlands</li>
+            <li><strong>M.S. in Biostatistics</strong>, Case Western Reserve University (expected 2025)</li>
+            <li><strong>B.S. in Applied Mathematics</strong>, Case Western Reserve University</li>
+            <li><strong>International Baccalaureate</strong>, UWC Maastricht (Netherlands)</li>
           </ul>
         </div>
       </div>
     </div>
-
     <div class="accordion-item">
       <h2 class="accordion-header" id="headingSkills">
-        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSkills" aria-expanded="false" aria-controls="collapseSkills">
-          Skills
-        </button>
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSkills" aria-expanded="false" aria-controls="collapseSkills">Skills</button>
       </h2>
       <div id="collapseSkills" class="accordion-collapse collapse" aria-labelledby="headingSkills" data-bs-parent="#bioAccordion">
         <div class="accordion-body">
-          Python, R, PLINK, Snakemake, PyTorch, TensorFlow, R Shiny, Bioconductor, scikit-learn, bash scripting, statistical modeling, deep learning, genome-wide analysis.
+          Python, R, TensorFlow, PyTorch, Snakemake, Git, PLINK, bash scripting, statistical modeling, GWAS, EHR data integration, deep learning, scientific writing.
         </div>
       </div>
     </div>
   </div>
-</main>
-
-<script src="site_libs/bootstrap/bootstrap.bundle.min.js"></script>
+</div>
 </body>
 </html>
