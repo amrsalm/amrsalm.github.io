@@ -29,6 +29,15 @@
   object-fit: cover;
   box-shadow: 0 0 8px rgba(0,0,0,0.1);
 }
+.profile-pic-side {
+  border-radius: 50%;
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  box-shadow: 0 0 10px rgba(0,0,0,0.15);
+  margin-bottom: 1rem;
+}
+
 
   </style>
 
@@ -117,9 +126,15 @@
 </header>
 
 <div class="container">
-  <img src="../img/my_image.jpeg" alt="Amr Salem profile picture" class="profile-pic">
-  <h1 class="text-center">Welcome!</h1>
-
+  <div class="row align-items-center mb-4">
+    <div class="col-md-4 text-center">
+      <img src="../img/my_image.jpeg" alt="Amr Salem profile picture" class="profile-pic-side">
+    </div>
+    <div class="col-md-8">
+      <h1 class="fw-bold">Welcome!</h1>
+      <p class="lead">I’m Amr Salem – a biostatistician working at the intersection of statistical genomics, biomedical informatics, and machine learning.</p>
+    </div>
+  </div>
   <div class="accordion" id="bioAccordion">
     <div class="accordion-item">
       <h2 class="accordion-header" id="headingResearch">
