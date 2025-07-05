@@ -20,6 +20,50 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */
   vertical-align: middle;
 }
+.project {
+  background: #f9f9f9;
+  padding: 25px;
+  margin-bottom: 40px;
+  border-left: 5px solid #007ACC;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  transition: transform 0.2s;
+}
+
+.project:hover {
+  transform: scale(1.01);
+  box-shadow: 0 6px 14px rgba(0,0,0,0.1);
+}
+
+.project-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.project-header img {
+  width: 65px;
+  height: 65px;
+  object-fit: contain;
+  margin-right: 15px;
+  transition: transform 0.3s ease, filter 0.3s ease;
+  border-radius: 8px;
+}
+
+.project:hover .project-header img {
+  transform: scale(1.1);
+  filter: brightness(1.1);
+}
+
+.project-header h3 {
+  margin: 0;
+  color: #007ACC;
+}
+
+.project p a {
+  text-decoration: underline;
+  color: #007ACC;
+}
 </style>
 
 
@@ -176,28 +220,29 @@ ul.task-list li input[type="checkbox"] {
       <img src="https://npr.brightspotcdn.com/dims4/default/a621ce6/2147483647/strip/true/crop/3000x2000+0+0/resize/1760x1174!/format/webp/quality/90/?url=https%3A%2F%2Fmedia.wbur.org%2Fwp%2F2024%2F01%2FAP22230669520036-scaled.jpg" alt="Dana-Farber Logo">
       <h3>Runs of Homozygosity in Pediatric Cancer</h3>
     </div>
-    <p>This project explores long ROHs as potential indicators of tumor suppressor inactivation using WGS data from 25,000+ pediatric cancer patients. It integrates ROH mapping, population structure analysis, and enrichment testing for known cancer predisposition loci. Initial findings suggest enrichment of ROH events in key genomic regions, including 6q22 and 17p13.</p>
+    <p>This project explores long ROHs as potential indicators of tumor suppressor inactivation using WGS data from 25,000+ pediatric cancer patients. It integrates ROH mapping, population structure analysis, and enrichment testing for known cancer predisposition loci. Initial findings suggest enrichment of ROH events in key genomic regions around important genes TP53 and EGFR </p>
     <p><strong>Skills:</strong> BCFtools, Snakemake, R (GenomicRanges, data.table), UCSC Genome Browser, bash</p>
   </div>
 
   <div class="project">
     <div class="project-header">
-      <img src="https://soeapp.ucsd.edu/tools/uploads/news/DNAHelix.jpg" alt="Kidney Diagram">
-      <h3>Predicting Kidney Stone Risk Using Genomic Data</h3>
+      <img src="https://soeapp.ucsd.edu/tools/uploads/news/DNAHelix.jpg" alt="DNA Helix">
+      <h3>Polygenic Risk Prediction of Kidney Stone Disease</h3>
     </div>
-    <p>Under Dr. Anirban Mondal, I developed a CNN model using 400+ SNPs from GWAS to predict kidney stone susceptibility. Despite a small cohort (n = 60), the model achieved 75% accuracy and ROC-AUC = 0.8125. This work demonstrated the feasibility of deep learning in polygenic modeling for small datasets.</p>
-    <p><strong>Skills:</strong> Python (TensorFlow, pandas), GWAS data processing, CNN modeling, ROC/AUC evaluation</p>
+    <p>Under Dr. Anirban Mondal, I developed a Convolutional Neural Network (CNN) to predict kidney stone susceptibility from GWAS-derived SNPs. Despite a small cohort (n = 60), the model achieved 75% accuracy and an ROC-AUC of 0.8125, supporting the use of deep learning for genetic risk modeling in complex traits.</p>
+    <p>This project laid the foundation for exploring polygenic risk scores (PRS) in urologic conditions. Our findings were presented at ACMG 2024 and published as a preprint on <a href="https://arxiv.org/abs/2412.17559" target="_blank">arXiv:2412.17559</a>.</p>
+    <p><strong>Skills:</strong> Python (TensorFlow, pandas), GWAS processing, CNN modeling, PRS development, ROC/AUC evaluation</p>
   </div>
 
   <div class="project">
     <div class="project-header">
       <img src="https://fairbanksurology.com/wp-content/uploads/2021/10/CTkidneystone.jpg" alt="Kidney Stone CT">
-      <h3>Disease Course of Kidney Stones</h3>
+      <h3>Reframing Kidney Stones as a Systemic Disease</h3>
     </div>
-    <p>This project investigates recurrence risk using integrated EHR and genomic features. I developed a machine learning pipeline to model disease trajectories and identify key clinical-genetic interactions. Initial findings were presented at <a href="https://www.acmg.net/" target="_blank">ACMG 2024</a> and are featured in a manuscript <a href="https://arxiv.org/abs/2401.12345" target="_blank">under review</a>.</p>
-    <p><strong>Skills:</strong> R (tidymodels, caret), EHR integration, feature engineering, random forest & logistic regression</p>
+    <p>This study used longitudinal EHR data to uncover novel comorbidity patterns in kidney stone patients. We identified a significant link between kidney stone disease (KSD) and neoplastic disorders, prompting a new view of KSD as a systemic condition rather than a purely urological issue.</p>
+    <p>Our analysis, featured at ACMG 2024 and in a peer-reviewed publication, is available at <a href="https://www.sciencedirect.com/science/article/pii/S2949774424003042" target="_blank">ScienceDirect (ACMG GIM findings)</a>.</p>
+    <p><strong>Skills:</strong> R (tidymodels, data.table), EHR integration, longitudinal modeling, disease network analysis, logistic regression</p>
   </div>
-</section>
 
 <style>
 .project {
